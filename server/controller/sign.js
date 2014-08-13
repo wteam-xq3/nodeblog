@@ -5,7 +5,10 @@ var user_ctrl = require('./user');
 
 // 关闭注册接口
 exports.signup = function(req, res, next) {
-    //if(user_ctrl.getSessionUser(req)) return res.redirect('/');
+    if(user_ctrl.getSessionUser(req)) {
+        return res.redirect('/');   
+    }
+    
     if(req.method === 'POST') {
         var admin = settings.ADMIN;
         var info = {

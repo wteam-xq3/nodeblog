@@ -8,11 +8,10 @@
 /logs
 /node_modules
 /tmp
-/settings.js
 /see
+/web/dist
 /web/src/bower-libs
 /web/src/covers
-/web/dist
 /web/edit.html
 /web/index.html
 /web/post.html
