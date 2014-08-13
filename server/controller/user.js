@@ -2,7 +2,7 @@ var settings = require('../../settings');
 var admin = settings.ADMIN;
 
 var crypto = require('crypto');
-//var request = require('request');
+// var request = require('request');
 var check = require('validator').check;
 var sanitize = require('validator').sanitize;
 
