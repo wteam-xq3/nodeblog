@@ -279,7 +279,7 @@ header {
     overflow: hidden;
 }
 .header-inner {
-    /*width: 960px;*/
+    width: 960px;
     margin: 0 90px;
 }
 .page-title {
@@ -452,6 +452,12 @@ header nav a:hover {
 .author-info .sns-icon .sns-douban {
     background-position: 0 -96px;
     margin-left: 5px;
+}
+.nav-l {
+    float: left;
+}
+.nav-r {
+    float: right;
 }
 
 /* footer */

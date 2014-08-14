@@ -1,7 +1,6 @@
 /*
  * GET home routes page.
  */
-
 var fs = require('fs');
 
 var settings = require('../../settings');
@@ -30,7 +29,7 @@ function routes(app) {
     app.get('/logout', sign.logout);
     app.get('/info', sign.info);
     //app.get('/social/oauth/callback', sign.socialLogin);
-
+    
     // post about
     app.get('/edit/:postid?', sign.loginCheck, sign.adminCheck, post.edit);
     app.post('/post/create', sign.loginCheck, sign.adminCheck, post.create);
