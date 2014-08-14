@@ -38,11 +38,18 @@
                 <!-- <p class="sub-title">聊聊技术，写写生活，人生当有所积累！</p> -->
             </section>
 
-            <nav>
-                <a href="/" {% if home %}class="active"{% endif %} title="回主页">主页</a>
-                <a href="http://dmfeel.lofter.com/" target="_blank" title="Lofter相册">行行摄摄</a>
-                <a href="/about" {% if about %}class="active"{% endif %} title="About Me">关于</a>
+            <nav class="nav-menu clearfix">
+                <div class="nav-l">
+                    <a href="/" {% if home %}class="active"{% endif %} title="回主页">主页</a>
+                    <a href="/about" {% if about %}class="active"{% endif %} title="About Me">关于</a>
+                </div>
+                <!-- <div class="nav-r">
+                    <a href="/signup" title="注册">注册</a>
+                    <a href="/login" title="登录">登录</a>
+                    <a href="/logout" title="退出">退出</a>
+                </div> -->
             </nav>
+
         </div>
     </header>
     {% endblock %}

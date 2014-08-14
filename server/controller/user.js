@@ -3,8 +3,9 @@ var admin = settings.ADMIN;
 
 var crypto = require('crypto');
 // var request = require('request');
-var check = require('validator').check;
-var sanitize = require('validator').sanitize;
+var validator = require('validator');
+var check = validator.check;
+var sanitize = validator.sanitize;
 
 var models = require('../models');
 var User = models.User;

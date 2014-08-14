@@ -9,7 +9,7 @@
     "express": "3.0.6",
     "mongodb": "*",
     "mongoose": "*",
-    "validator": "*",
+    "validator": "1.x",
     "async": "*",
     "eventproxy": "*",
     "connect-domain": "~0.5.0",
