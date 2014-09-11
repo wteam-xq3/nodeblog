@@ -153,7 +153,7 @@ exports.loginCheck = function(req, res, next) {//console.log(req.session)
 
 exports.adminCheck = function(req, res, next) {
     var user = user_ctrl.getSessionUser(req);
-
+    
     if(user.admin) {
         next();
     } else {
